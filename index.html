@@ -13,21 +13,33 @@
 
 <body>
  
-<nav class="nav-bar">
-     <img class="logo" src="./Images/Load_Haul_Logo_2014.png" alt="">
-     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a class="contact-us-tag" href="#">Contact Us</a></li>
-     </ul>
-     <div class="harmburger-menu">
-          <span class="line"></span> 
-          <span class="line"></span>
-          <span class="line"></span>
-     </div>
-</nav>
+
+<div id="navbar">
+     <img id="logo" src="./Images/Load_Haul_Logo_2014.png" alt="">
+     <div class="navbar-links">
+          <ul>
+             <li><a href="#">Services</a></li>
+             <li><a class="orangeLink" href="#">Subscribe</a></li>
+             <li><a href="#">Contact Us</a></li>
+         </ul>
+    </div>
+</div> 
+<a href="#" class="toggle-button" onclick="openNav()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</a>  
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Subscribe</a></li>
+         <li><a href="#">Contact Us</a></li>
+    </div>
+</div> 
+
+
+
 
 <div class="bilboard-section">
      <div class="bilboard-overlay">
