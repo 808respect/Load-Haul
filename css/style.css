@@ -17,7 +17,7 @@ span{
 }
 /* NAVIGATION BAR */
 #navbar{
-    padding: 2% 3% 2% 3%;
+    padding: 0% 3% 0% 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,8 +100,8 @@ span{
     } 
 
     #logo{
-        width: 270px;
-        height: 180px;
+        width: 130px;
+        height: 100px;
        
     }
 
